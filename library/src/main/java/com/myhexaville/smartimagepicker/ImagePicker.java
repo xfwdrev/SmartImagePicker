@@ -16,8 +16,8 @@ import android.support.v4.content.FileProvider;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.theartofdev.edmodo.cropper.CropImage;
-import com.theartofdev.edmodo.cropper.CropImageView;
+import com.canhub.cropper.CropImage;
+import com.canhub.cropper.CropImageView;
 
 import java.io.File;
 import java.io.IOException;
@@ -26,9 +26,9 @@ import java.util.List;
 
 import static android.app.Activity.RESULT_OK;
 import static android.content.pm.PackageManager.PERMISSION_GRANTED;
-import static com.theartofdev.edmodo.cropper.CropImage.CAMERA_CAPTURE_PERMISSIONS_REQUEST_CODE;
-import static com.theartofdev.edmodo.cropper.CropImage.PICK_IMAGE_CHOOSER_REQUEST_CODE;
-import static com.theartofdev.edmodo.cropper.CropImage.getGalleryIntents;
+import static com.canhub.cropper.CropImage.CAMERA_CAPTURE_PERMISSIONS_REQUEST_CODE;
+import static com.canhub.cropper.CropImage.PICK_IMAGE_CHOOSER_REQUEST_CODE;
+import static com.canhub.cropper.CropImage.getGalleryIntents;
 
 /**
  * Usage: Create new instance, call {@link #choosePicture(boolean)} or {@link #openCamera()}
